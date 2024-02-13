@@ -1,0 +1,34 @@
+TelaInformacoes As screen:
+
+    Rectangle14 As rectangle:
+        Fill: =RGBA(215, 223, 240, 1)
+        Height: =1136
+        Width: =638
+        ZIndex: =1
+
+    Rectangle15 As rectangle:
+        Height: =82
+        Width: =640
+        ZIndex: =2
+
+    Label6 As label:
+        Align: =Align.Center
+        Color: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =55
+        Size: =28
+        Text: ="Informações"
+        Width: =262
+        X: =188
+        Y: =13
+        ZIndex: =3
+
+    Arrow3 As arrow.backArrow:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =56
+        OnSelect: =Navigate(TelaPrincipal)
+        Width: =49
+        X: =32
+        Y: =13
+        ZIndex: =4
+

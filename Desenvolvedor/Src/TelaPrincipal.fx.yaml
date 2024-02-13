@@ -1,0 +1,158 @@
+TelaPrincipal As screen:
+    BackgroundImage: =
+    Fill: =RGBA(0, 121, 187, 1)
+    ImagePosition: =ImagePosition.Center
+
+    Image2 As image:
+        Height: =843
+        Image: =fotoCaraguaConnect
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        Y: =157
+        ZIndex: =1
+
+    Rectangle3 As rectangle:
+        Fill: =RGBA(0, 121, 187, 1)
+        Height: =312
+        Width: =640
+        Y: =824
+        ZIndex: =2
+
+    Image3 As image:
+        Height: =96
+        Image: =fotorestaurante
+        OnSelect: =Navigate(TelaRestaurante)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =126
+        X: =29
+        Y: =842
+        ZIndex: =3
+
+    Image3_1 As image:
+        Height: =96
+        Image: ='defesa-civil-situacao-de-emergencia-2'
+        OnSelect: =Navigate(TelaEmergencia)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =120
+        X: =32
+        Y: =989
+        ZIndex: =4
+
+    Image3_2 As image:
+        Height: =96
+        Image: =fotohotel
+        OnSelect: =Navigate(TelaHotel)
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =120
+        X: =242
+        Y: =837
+        ZIndex: =5
+
+    Image3_3 As image:
+        Height: =96
+        Image: =agenda
+        OnSelect: =Navigate(TelaAgenda)
+        Width: =120
+        X: =242
+        Y: =981
+        ZIndex: =6
+
+    Image3_4 As image:
+        Height: =96
+        Image: =fotoinformacao
+        OnSelect: =Navigate(TelaInformacoes)
+        Width: =120
+        X: =453
+        Y: =837
+        ZIndex: =7
+
+    Label1 As label:
+        Color: =RGBA(215, 223, 240, 1)
+        Size: =21
+        Text: ="Restaurante"
+        Width: =172
+        X: =18
+        Y: =939
+        ZIndex: =8
+
+    Label1_1 As label:
+        Color: =RGBA(215, 223, 240, 1)
+        Size: =21
+        Text: ="Emergência"
+        Width: =172
+        X: =18
+        Y: =1085
+        ZIndex: =9
+
+    Label1_2 As label:
+        Align: =Align.Center
+        Color: =RGBA(215, 223, 240, 1)
+        Size: =21
+        Text: ="Agenda"
+        Width: =123
+        X: =242
+        Y: =1085
+        ZIndex: =10
+
+    Label1_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(215, 223, 240, 1)
+        Size: =21
+        Text: ="Hotel"
+        Width: =123
+        X: =239
+        Y: =941
+        ZIndex: =11
+
+    Label1_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(215, 223, 240, 1)
+        Height: =32
+        Size: =21
+        Text: ="Informações"
+        Width: =186
+        X: =420
+        Y: =945
+        ZIndex: =12
+
+    Image3_5 As image:
+        Height: =96
+        Image: =fotoLocal
+        OnSelect: =Navigate(TelaLocal)
+        Width: =120
+        X: =453
+        Y: =1000
+        ZIndex: =13
+
+    Label1_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(215, 223, 240, 1)
+        Size: =21
+        Text: ="Local"
+        Width: =123
+        X: =450
+        Y: =1096
+        ZIndex: =14
+
+    Label2 As label:
+        Align: =Align.Center
+        Color: =RGBA(215, 223, 240, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        Italic: =true
+        Size: =45
+        Text: ="Caragua Connect"
+        Width: =560
+        X: =40
+        Y: =39
+        ZIndex: =16
+

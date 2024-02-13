@@ -1,0 +1,447 @@
+"TelaRestaurante_2 As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar1_2 As rectangle:
+        Height: =120
+        Width: =Parent.Width
+        ZIndex: =1
+
+    LblAppName1_2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =120
+        Size: =27
+        Text: ="Restaurantes e Lanchonetes"
+        Width: =326
+        X: =157
+        ZIndex: =2
+
+    Arrow2_2 As arrow.backArrow:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =56
+        OnSelect: =Navigate(TelaPrincipal)
+        Width: =49
+        X: =32
+        Y: =32
+        ZIndex: =3
+
+    Rectangle20_8 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =192
+        Width: =614
+        X: =13
+        Y: =150
+        ZIndex: =5
+
+    Label7_8 As label:
+        Height: =53
+        Size: =16
+        Text: ="R. Prudência Baeta, 21 - Pontal de Santa Marina, Caraguatatuba - SP, 11672-170"
+        Width: =439
+        X: =101
+        Y: =278
+        ZIndex: =6
+
+    Label8_16 As label:
+        Height: =15
+        Size: =8
+        Text: ="4.7"
+        Width: =27
+        X: =198
+        Y: =171
+        ZIndex: =7
+
+    Star1_40 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =225
+        Y: =171
+        ZIndex: =8
+
+    Star1_41 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =235
+        Y: =171
+        ZIndex: =9
+
+    Star1_42 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =245
+        Y: =171
+        ZIndex: =10
+
+    Star1_43 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =255
+        Y: =171
+        ZIndex: =11
+
+    Star1_44 As star:
+        Height: =13
+        Width: =13
+        X: =265
+        Y: =171
+        ZIndex: =12
+
+    Label8_17 As label:
+        Height: =22
+        Size: =11
+        Text: |-
+            ="Aberto das 09:00 ás 23:00 "
+        Width: =201
+        X: =293
+        Y: =167
+        ZIndex: =13
+
+    Label10_8 As label:
+        Height: =74
+        Size: =12
+        Text: ="Ostras, camarões e peixes, além de massas, carnes e drinques, em ambiente rústico, tranquilo e aconchegante."
+        Width: =340
+        X: =191
+        Y: =193
+        ZIndex: =14
+
+    Image9_8 As image:
+        Height: =86
+        Image: =OstraeUriçosCaragua
+        Width: =149
+        X: =32
+        Y: =175
+        ZIndex: =15
+
+    Image10_8 As image:
+        Height: =34
+        Image: =fotoLocal
+        Width: =43
+        X: =49
+        Y: =290
+        ZIndex: =16
+
+    Rectangle20_9 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =192
+        Width: =614
+        X: =13
+        Y: =373
+        ZIndex: =18
+
+    Label7_9 As label:
+        Height: =56
+        Size: =16
+        Text: ="R. Prudência Baeta, 21 - Pontal de Santa Marina, Caraguatatuba - SP, 11672-170"
+        Width: =439
+        X: =101
+        Y: =499
+        ZIndex: =19
+
+    Label8_18 As label:
+        Height: =10
+        Size: =8
+        Text: ="4.7"
+        Width: =27
+        X: =197
+        Y: =390
+        ZIndex: =20
+
+    Star1_45 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =224
+        Y: =386
+        ZIndex: =21
+
+    Star1_46 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =234
+        Y: =386
+        ZIndex: =22
+
+    Star1_47 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =244
+        Y: =386
+        ZIndex: =23
+
+    Star1_48 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =254
+        Y: =386
+        ZIndex: =24
+
+    Star1_49 As star:
+        Height: =13
+        Width: =13
+        X: =264
+        Y: =386
+        ZIndex: =25
+
+    Label8_19 As label:
+        Height: =26
+        Size: =11
+        Text: |-
+            ="Aberto das 09:00 ás 23:00 "
+        Width: =202
+        X: =292
+        Y: =379
+        ZIndex: =26
+
+    Label10_9 As label:
+        Height: =99
+        Size: =12
+        Text: ="Ostras, camarões e peixes, além de massas, carnes e drinques, em ambiente rústico, tranquilo e aconchegante."
+        Width: =340
+        X: =190
+        Y: =412
+        ZIndex: =27
+
+    Image9_9 As image:
+        Height: =91
+        Image: =OstraeUriçosCaragua
+        Width: =149
+        X: =31
+        Y: =386
+        ZIndex: =28
+
+    Image10_9 As image:
+        Height: =34
+        Image: =fotoLocal
+        Width: =43
+        X: =49
+        Y: =505
+        ZIndex: =29
+
+    Rectangle20_10 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =192
+        Width: =614
+        X: =14
+        Y: =599
+        ZIndex: =31
+
+    Label7_10 As label:
+        Height: =43
+        Size: =16
+        Text: ="R. Prudência Baeta, 21 - Pontal de Santa Marina, Caraguatatuba - SP, 11672-170"
+        Width: =439
+        X: =92
+        Y: =732
+        ZIndex: =32
+
+    Label8_20 As label:
+        Height: =10
+        Size: =8
+        Text: ="4.7"
+        Width: =27
+        X: =198
+        Y: =615
+        ZIndex: =33
+
+    Star1_50 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =225
+        Y: =612
+        ZIndex: =34
+
+    Star1_51 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =235
+        Y: =612
+        ZIndex: =35
+
+    Star1_52 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =245
+        Y: =612
+        ZIndex: =36
+
+    Star1_53 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =255
+        Y: =612
+        ZIndex: =37
+
+    Star1_54 As star:
+        Height: =13
+        Width: =13
+        X: =265
+        Y: =612
+        ZIndex: =38
+
+    Label8_21 As label:
+        Height: =26
+        Size: =11
+        Text: |-
+            ="Aberto das 09:00 ás 23:00 "
+        Width: =190
+        X: =293
+        Y: =605
+        ZIndex: =39
+
+    Label10_10 As label:
+        Height: =77
+        Size: =12
+        Text: ="Ostras, camarões e peixes, além de massas, carnes e drinques, em ambiente rústico, tranquilo e aconchegante."
+        Width: =340
+        X: =191
+        Y: =638
+        ZIndex: =40
+
+    Image9_10 As image:
+        Height: =91
+        Image: =OstraeUriçosCaragua
+        Width: =149
+        X: =32
+        Y: =612
+        ZIndex: =41
+
+    Image10_10 As image:
+        Height: =34
+        Image: =fotoLocal
+        Width: =43
+        X: =38
+        Y: =737
+        ZIndex: =42
+
+    Rectangle20_11 As rectangle:
+        BorderThickness: =1
+        Fill: =RGBA(227, 234, 243, 1)
+        Height: =199
+        Width: =614
+        X: =14
+        Y: =820
+        ZIndex: =43
+
+    Label7_11 As label:
+        Height: =44
+        Size: =16
+        Text: ="R. Prudência Baeta, 21 - Pontal de Santa Marina, Caraguatatuba - SP, 11672-170"
+        Width: =439
+        X: =92
+        Y: =958
+        ZIndex: =44
+
+    Label8_22 As label:
+        Height: =10
+        Size: =8
+        Text: ="4.7"
+        Width: =27
+        X: =198
+        Y: =836
+        ZIndex: =45
+
+    Star1_55 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =225
+        Y: =833
+        ZIndex: =46
+
+    Star1_56 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =235
+        Y: =833
+        ZIndex: =47
+
+    Star1_57 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =245
+        Y: =833
+        ZIndex: =48
+
+    Star1_58 As star:
+        Fill: =RGBA(255, 191, 0, 1)
+        Height: =13
+        Width: =13
+        X: =255
+        Y: =833
+        ZIndex: =49
+
+    Star1_59 As star:
+        Height: =13
+        Width: =13
+        X: =265
+        Y: =833
+        ZIndex: =50
+
+    Label8_23 As label:
+        Height: =26
+        Size: =11
+        Text: |-
+            ="Aberto das 09:00 ás 23:00 "
+        Width: =201
+        X: =293
+        Y: =826
+        ZIndex: =51
+
+    Label10_11 As label:
+        Height: =79
+        Size: =12
+        Text: ="Ostras, camarões e peixes, além de massas, carnes e drinques, em ambiente rústico, tranquilo e aconchegante."
+        Width: =340
+        X: =191
+        Y: =859
+        ZIndex: =52
+
+    Image9_11 As image:
+        Height: =91
+        Image: =OstraeUriçosCaragua
+        Width: =149
+        X: =37
+        Y: =833
+        ZIndex: =53
+
+    Image10_11 As image:
+        Height: =34
+        Image: =fotoLocal
+        Width: =43
+        X: =38
+        Y: =963
+        ZIndex: =54
+
+    Icon5_2 As icon.ChevronLeft:
+        Icon: =Icon.ChevronLeft
+        OnSelect: =Navigate(TelaRestaurante_1)
+        X: =31
+        Y: =1059
+        ZIndex: =57
+
+    Label13 As label:
+        Align: =Align.Center
+        Height: =37
+        Size: =12
+        Text: ="Página 3"
+        Width: =84
+        X: =279
+        Y: =1072
+        ZIndex: =58
+

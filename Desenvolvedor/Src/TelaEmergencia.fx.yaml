@@ -1,0 +1,36 @@
+TelaEmergencia As screen:
+
+    Rectangle8 As rectangle:
+        Fill: =RGBA(215, 223, 240, 1)
+        Height: =1136
+        Width: =638
+        X: =2
+        ZIndex: =1
+
+    Rectangle9 As rectangle:
+        Height: =84
+        Width: =638
+        X: =2
+        ZIndex: =2
+
+    Label3 As label:
+        Align: =Align.Center
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =69
+        Size: =28
+        Text: ="Emergência"
+        Width: =282
+        X: =180
+        Y: =7
+        ZIndex: =3
+
+    Arrow1 As arrow.backArrow:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =52
+        OnSelect: =Navigate(TelaPrincipal)
+        Width: =52
+        X: =21
+        Y: =15
+        ZIndex: =4
+

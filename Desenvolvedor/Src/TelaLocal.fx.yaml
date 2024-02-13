@@ -1,0 +1,33 @@
+TelaLocal As screen:
+
+    Rectangle10 As rectangle:
+        Fill: =RGBA(175, 191, 224, 1)
+        Height: =1136
+        Width: =640
+        ZIndex: =1
+
+    Rectangle11 As rectangle:
+        Width: =640
+        ZIndex: =2
+
+    Label4 As label:
+        Align: =Align.Center
+        Color: =RGBA(241, 244, 249, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =85
+        Size: =28
+        Text: ="Local"
+        Width: =132
+        X: =254
+        Y: =7
+        ZIndex: =3
+
+    Arrow4 As arrow.backArrow:
+        Fill: =RGBA(241, 244, 249, 1)
+        Height: =56
+        OnSelect: =Navigate(TelaPrincipal)
+        Width: =49
+        X: =36
+        Y: =21
+        ZIndex: =4
+

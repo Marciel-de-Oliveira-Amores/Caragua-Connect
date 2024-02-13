@@ -1,0 +1,23 @@
+{
+  "7862e44e-7a1a-479f-8eb7-2940a0c4aaa5": {
+    "appActions": [
+      "CalendarGetTables",
+      "GetEventsCalendarViewV2"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "7862e44e-7a1a-479f-8eb7-2940a0c4aaa5"
+  }
+}
